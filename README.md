@@ -4,21 +4,21 @@ this dataset is taken from datahub.io and the link to the same is https://datahu
 
 This dataset is about speed dating.
 
-This data was gathered from participants in experimental speed dating events from 2002-2004. During the events, the attendees would have a four-minute “first date” with every other participant of the opposite sex. At the end of their four minutes, participants were asked if they would like to see their date again. They were also asked to rate their date on six attributes:
+This data was gathered from participants in experimental speed dating events from 2002-2004. During the events, the attendees would have a four-minute “first date” with every other participant of the opposite sex. At the end of their four minutes, participants were asked if they would like to see their date again. They were also asked to rate their date on six attributes: 
 
-Attractiveness
-Sincerity
-Intelligence
-Fun
-Ambition
+Attractiveness,
+Sincerity,
+Intelligence,
+Fun,
+Ambition,
 Shared Interests.
 
-The dataset also includes questionnaire data gathered from participants at different points in the process. These fields include:
-demographics
-dating habits
-self-perception across key attributes
-beliefs on what others find valuable in a mate
-and lifestyle information
+The dataset also includes questionnaire data gathered from participants at different points in the process. These fields include: 
+demographics,
+dating habits,
+self-perception across key attributes,
+beliefs on what others find valuable in a mate,
+and lifestyle information.
 
 there are 123 columns in the dataset with match column as the target variable .the columns were of different datatypes which i changed to be used as a feature in the machine learning model.
 the categorical variables were changed through label encoding and the columns with data as an interval were replaced by the average of the interval.i created functions for various works and changed the values in the dataset to numerics to be used in the ml model.
